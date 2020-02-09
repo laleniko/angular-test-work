@@ -1,1 +1,8 @@
-<p>filter works!</p>
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+  <label for="name">Name</label>
+  <input type="text" ngModel name="name" id="name">
+
+  <label for="type">Type</label>
+  <input type="text" ngModel name="type" id="type">
+  <button>Submit</button>
+</form>
