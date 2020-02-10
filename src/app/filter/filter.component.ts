@@ -16,13 +16,8 @@ export class FilterComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSubmit(f: NgForm) {
-    this.searchData.name = f.value.name;
-    this.searchData.type = f.value.type;
-
-    if (this.searchData.name || this.searchData.type) {
-      this.router.navigate(['/filter', this.searchData.name, this.searchData.type]);
-    }
+  public search(form: NgForm) {
+    this.searchData = form.value;
+    this.router.navigate(['/filter', this.searchData.name, this.searchData.type]);
   }
-
 }

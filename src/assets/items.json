@@ -2,7 +2,7 @@
   {"id": 1, "name": "gray", "type": "dark"},
   {"id": 2, "name": "black", "type": "dark"},
   {"id": 3, "name": "brown", "type": "dark"},
-  {"id": 4, "name": "blue", "type": "dark"},
+  {"id": 4, "name": "red", "type": "dark"},
   {"id": 5, "name": "orange", "type": "normal"},
   {"id": 6, "name": "blue", "type": "normal"},
   {"id": 7, "name": "purple", "type": "normal"},
