@@ -1,12 +1,12 @@
 [
-  {"id": 1, "name": "a", "type": "3"},
-  {"id": 2, "name": "b", "type": "3"},
-  {"id": 3, "name": "c", "type": "3"},
-  {"id": 4, "name": "d", "type": "3"},
-  {"id": 5, "name": "f", "type": "3"},
-  {"id": 6, "name": "j", "type": "3"},
-  {"id": 7, "name": "e", "type": "3"},
-  {"id": 8, "name": "k", "type": "3"},
-  {"id": 9, "name": "l", "type": "3"},
-  {"id": 10, "name": "m", "type": "3"}
+  {"id": 1, "name": "gray", "type": "dark"},
+  {"id": 2, "name": "black", "type": "dark"},
+  {"id": 3, "name": "brown", "type": "dark"},
+  {"id": 4, "name": "blue", "type": "dark"},
+  {"id": 5, "name": "orange", "type": "normal"},
+  {"id": 6, "name": "blue", "type": "normal"},
+  {"id": 7, "name": "purple", "type": "normal"},
+  {"id": 8, "name": "yellow", "type": "light"},
+  {"id": 9, "name": "white", "type": "light"},
+  {"id": 10, "name": "pink", "type": "light"}
 ]

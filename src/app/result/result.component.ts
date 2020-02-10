@@ -26,6 +26,7 @@ export class ResultComponent implements OnInit {
       this.getItems();
     });
   }
+
   public getItems() {
     this.sub = this.dataService.getItems()
       .pipe(
