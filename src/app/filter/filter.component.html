@@ -1,8 +1,12 @@
-<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
-  <label for="name">Name</label>
-  <input type="text" ngModel name="name" id="name">
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" class="form">
 
-  <label for="type">Type</label>
-  <input type="text" ngModel name="type" id="type">
-  <button>Submit</button>
+  <mat-form-field>
+    <input matInput ngModel name="name" placeholder="Name">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput ngModel name="type" placeholder="Type">
+  </mat-form-field>
+
+  <button mat-stroked-button>Submit</button>
 </form>
